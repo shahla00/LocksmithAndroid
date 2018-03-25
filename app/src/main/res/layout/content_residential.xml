@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.birminghamneedalocksmith.locksmith.ResidentialServicesActivity"
+    tools:showIn="@layout/activity_residential">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="The Locksmith Company aids in many residential locksmith services, such as our 24/7-lockout service when you are accidentally locked out of your home. The Locksmith Company is also available for re-keying, and the changing and installation of new locks. Re-keying renders any previously made keys useless so no unknowns have access to your home, without the expense of replacing your locks altogether. If you do decide to replace your locks, we will gladly change and install them, as well as helping you decide on the best hardware to fit your needs.\n\nNEW Services: We are pleased to announce that we now offer Full Home Security Systems w/ monitoring, Full CCTV or Security Camera setup including wired, Wi-Fi, and POE systems depending on your needs. We also Now hang and mount Flat Screen Tv’s for individuals! Mounts and ALL!"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

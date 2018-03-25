@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">The Locksmith Company</string>
+    <color name="background">#E4E1D0</color>
+    <string name="title_activity_auto">Automobile Services</string>
+    <string name="title_activity_residential">Residential Services</string>
+    <string name="title_activity_commercial">Commercial Services</string>
+</resources>

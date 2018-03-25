@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.birminghamneedalocksmith.locksmith.AutoServicesActivity"
+    tools:showIn="@layout/activity_auto">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="The Locksmith Company’s specialized automobile services include 24/7 emergency lockouts, broken key extraction, and lock repair.\n\nIt always seems that you find yourself locked out of your car at the most inopportune times – The Locksmith Company will arrive quickly and have you back in your car and on the road in no time.\n\nBroken keys are unusual, but they do happen. If you try to remove the broken piece, you can damage your lock and still not make any headway in getting the broken piece out. We can take care of the broken key, as well as repair damaged door and ignition locks."
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
